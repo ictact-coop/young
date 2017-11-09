@@ -1,0 +1,40 @@
+.page-node-type-activity .pre-header,
+.page-node-type-activity .header-container,
+.page-node-type-activity .banner,
+.page-node-type-activity .highlighted-top,
+.page-node-type-activity .highlighted,
+.page-node-type-activity .content-top,
+.page-node-type-activity .content-top-highlighted,
+.page-node-type-activity .media-background,
+.page-node-type-activity .content-bottom,
+.page-node-type-activity .featured-top,
+.page-node-type-activity .featured,
+.page-node-type-activity .featured-bottom,
+.page-node-type-activity .sub-featured,
+.page-node-type-activity .footer-top,
+.page-node-type-activity .footer,
+.page-node-type-activity .footer-bottom,
+.page-node-type-activity .subfooter,
+.page-node-type-activity #toolbar,
+.page-node-type-activity .block-local-tasks-block,
+.page-node-type-activity .field--type-comment,
+.page-node-type-activity aside,
+.page-node-type-activity .slideout,
+.page-node-type-activity .slideout-toggle {
+  display: none!important;
+}
+.page-node-type-activity .main-content .col-md-8 {
+  width: 100%;
+}
+.page-node-type-activity .node__side {
+  display: none!important;
+}
+.page-node-type-activity .main-content__section {
+  padding-top: 0;
+}
+.page-node-type-activity blockquote {
+  border: none;
+}
+a.image-popup[href]:after {
+  content: none;
+}
