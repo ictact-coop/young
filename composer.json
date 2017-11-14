@@ -1,5 +1,5 @@
 {
-    "name": "ictact-coop/eolssoo",
+    "name": "ictact-coop/young",
     "description": "Project template for Drupal 8 projects with composer",
     "type": "project",
     "license": "GPL-2.0+",
@@ -13,6 +13,54 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/panelbutton",
+                "version": "4.6.2",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "http://download.ckeditor.com/panelbutton/releases/panelbutton_4.6.2.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/colorbutton",
+                "version": "4.6.2",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "http://download.ckeditor.com/colorbutton/releases/colorbutton_4.6.2.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/font",
+                "version": "4.6.2",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/font/releases/font_4.6.2.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "mehrpadin/superfish",
+                "version": "2.1",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/mehrpadin/Superfish-for-Drupal/archive/2.1.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "require": {
@@ -28,7 +76,6 @@
         "drupal/addtocopy": "*",
         "drupal/asset_injector": "2.*",
         "drupal/better_exposed_filters": "3.*",
-        "drupal/checklistapi": "1.*",
         "drupal/ckeditor_font": "1.*",
         "drupal/ckeditor_uploadimage": "1.*",
         "drupal/ckeditor_widgets": "1.*",
@@ -41,19 +88,20 @@
         "drupal/inline_responsive_images": "2.*",
         "drupal/masquerade": "2.*",
         "drupal/metatag": "1.*",
-        "drupal/mollom": "1.*",
         "drupal/panelbutton": "1.*",
         "drupal/paragraphs": "1.*",
         "drupal/pathauto": "1.*",
         "drupal/select_or_other": "1.*",
-        "drupal/seo_checklist": "4.*",
         "drupal/smtp": "1.*",
         "drupal/superfish": "1.*",
         "drupal/token": "1.*",
         "drupal/video_embed_field": "1.*",
         "drupal/webform": "5.*",
         "drupal/xmlsitemap": "1.*",
-        "drupal/yoast_seo": "1.*"
+        "ckeditor/font": "*",
+        "ckeditor/colorbutton": "*",
+        "ckeditor/panelbutton": "*",
+        "mehrpadin/superfish": "*"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -62,7 +110,8 @@
     "prefer-stable": true,
     "config": {
         "optimize-autoloader": true,
-        "sort-packages": true
+        "sort-packages": true,
+        "secure-http": false
     },
     "autoload": {
         "classmap": [
