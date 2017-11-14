@@ -96,7 +96,6 @@
         "drupal/superfish": "1.*",
         "drupal/token": "1.*",
         "drupal/video_embed_field": "1.*",
-        "drupal/webform": "5.*",
         "drupal/xmlsitemap": "1.*",
         "ckeditor/font": "*",
         "ckeditor/colorbutton": "*",
