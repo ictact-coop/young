@@ -100,7 +100,8 @@
         "ckeditor/font": "*",
         "ckeditor/colorbutton": "*",
         "ckeditor/panelbutton": "*",
-        "mehrpadin/superfish": "*"
+        "mehrpadin/superfish": "*",
+        "drupal/recaptcha": "2.*"
     },
     "conflict": {
         "drupal/drupal": "*"
