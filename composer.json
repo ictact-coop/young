@@ -89,6 +89,7 @@
         "drupal/insert_view": "^1.0@alpha",
         "drupal/masquerade": "2.*",
         "drupal/metatag": "1.*",
+        "drupal/node_view_permissions": "^1.2",
         "drupal/panelbutton": "1.*",
         "drupal/paragraphs": "1.*",
         "drupal/pathauto": "1.*",
